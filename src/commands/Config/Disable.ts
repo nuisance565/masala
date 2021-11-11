@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         const split = joined.split('|')
         const key = split[0].toLowerCase().trim()
-        if (!key) return void (await M.reply(`Provide the command you want to disable`))
+        if (!key) return void (await M.reply(`Give me the command you want to disable`))
         const feature = key === 'chatbot' ? key : ''
         if (feature) {
             const data = await this.client.getFeatures(feature)
