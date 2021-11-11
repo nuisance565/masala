@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        if (!M.urls.length) return void M.reply(`🔎 Provide the Spotify Track URL that you want to download`)
+        if (!M.urls.length) return void M.reply(`🤡 give me the Spotify Track URL that you want to download`)
         const url = M.urls[0]
         const track = new Spotify(url)
         const info = await track.getInfo()
