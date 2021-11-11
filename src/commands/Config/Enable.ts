@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         const key = joined.toLowerCase().trim()
-        if (!key) return void (await M.reply(`Provide the command you want to enable`))
+        if (!key) return void (await M.reply(`Give me the command you want to enable`))
         const feature = key === 'chatbot' ? key : ''
         const command = this.handler.commands.get(key) || this.handler.aliases.get(key)
         if (feature) {
