@@ -19,13 +19,13 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-        if (!joined) return void M.reply('🔎 Provide a search term')
+        if (!joined) return void M.reply('🤡 Provide a search term')
         const term = joined.trim()
         const { videos } = await yts(term)
         if (!videos || videos.length <= 0) return void M.reply(`⚓ No Matching videos found for the term : *${term}*`)
         const audio = new YT(videos[0].url, 'audio')
         if (!audio.url) return
-        M.reply('👾 Sending...')
+        M.reply('💋 Downloading your song...')
         this.client
             .sendMessage(M.from, await audio.getBuffer(), MessageType.audio, {
                 quoted: M.WAMessage,
