@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'infinity',
+            command: 'owner',
             description: 'Displays the info',
             category: 'bots',
             usage: `${client.config.prefix}infinity`,
@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         return void M.reply(
-            ` *Infinity* 🐦\n\n🍀 *Description:* The Multi-purpose Bot With Biggest User Base\n\n🌐 *URL:* https://github.com/lloyd4565\n`
+            ` *OWNER* \n\n🍀 *Contact:* The Multi-purpose Bot With Biggest User Base\n\n🌐 *URL:* https://wa.me/+27721753314\n`
         ).catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
     }
 }
