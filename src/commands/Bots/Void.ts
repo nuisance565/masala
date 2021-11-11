@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         return void M.reply(
-            `👾 *Void* 👾\n\n🍀 *Description:* A fully Object Oriented WhatsApp bot built with TypeScript\n\n🌐 *URL:* https://github.com/Synthesized-Infinity/Whatsapp-Botto-Void \n`
+            `💋 *channel* 💋\n\n🍀 *Description:* A fully Object Oriented WhatsApp bot built with TypeScript\n\n🌐 *URL:* https://youtube.com/channel/UCUqkcRVD3BPzhxoERrkXWYA \n`
         ).catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
     }
 }
