@@ -1,7 +1,9 @@
 <div align="center">
-<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png" alt="whatsapp-botto-void-init" border="0"></a>
 
-# **Kaoi : Next Level Void WhatsApp BOTTO**
+![IMG-20211107-WA0004](https://user-images.githubusercontent.com/88751177/141270859-47c30d7a-172d-411c-95cb-0e111f343947.jpg)
+
+    
+# **masala : Futuristic WhatsApp BOT**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi/badge)](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi)
 
@@ -9,13 +11,13 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-Button : If you are deploying normally
+Button : If you are deploying masala
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/PrajjwalDatir/Kaoi/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lloyd4565/masala/blob/main)
 
-Button : If you are deploying from a fork
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 
 Use any one of the above to deploy
 
@@ -39,7 +41,7 @@ Use any one of the above to deploy
 ## 🍥 Features of the Repo
 
 -   To view all features, click
-    here➡️[Kaoi_featuresList.md](https://github.com/PrajjwalDatir/Kaoi/blob/main/Features.md)
+    here➡️[Kaoi_featuresList.md](https://github.com/lloyd4565/masala/blob/main/Features.md)
 
 ## 💪 Contribution
 
@@ -48,15 +50,10 @@ Use any one of the above to deploy
 -   Make sure to follow the ESLint Rules while editing the code and run
     `yarn run prettier-format` before opening PRs
 
-## 🤝 Contributors
-
-<a href="https://github.com/PrajjwalDatir/Kaoi/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PrajjwalDatir/Kaoi" />
-</a>
 
 ### 🟢 WhatsApp Group
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlGNyRC9TMI07r1Fvt9fTU)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](.)
 
 ## 📄 License
 
