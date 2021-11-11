@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         if (!joined) return void M.reply('🤡 Give me a search term')
         const term = joined.trim()
         const { videos } = await yts(term)
-        if (!videos || videos.length <= 0) return void M.reply(`⚓ No Matching videos found for : *${term}*`)
+        if (!videos || videos.length <= 0) return void M.reply(`🤪 No Matching videos found for : *${term}*`)
         const length = videos.length < 10 ? videos.length : 10
         let text = `🤡 *Results for ${term}*\n`
         for (let i = 0; i < length; i++) {
