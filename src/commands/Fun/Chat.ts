@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
                     )}`
                 )
                 .then((res) => {
-                    if (res.status !== 200) return void M.reply(`🔍 Error: ${res.status}`)
+                    if (res.status !== 200) return void M.reply(`🤪 Error: ${res.status}`)
                     return void M.reply(res.data.cnt)
                 })
                 .catch(() => {
