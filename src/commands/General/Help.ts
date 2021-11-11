@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
             return void M.reply(
-                `${text} 🗃️ *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
+                `${text}  prefix [ ${this.client.config.prefix} ]*`
             )
         }
         const key = parsedArgs.joined.toLowerCase()
