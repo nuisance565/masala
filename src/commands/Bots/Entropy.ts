@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'nuisance',
+            command: 'support',
             description: 'Displays the info',
             category: 'bots',
             usage: `${client.config.prefix}entropy`,
@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         return void M.reply(
-            `💀 *nuisance* 💀\n\n🍀 *Description:* The Only WhatsApp Bot With Multi-Device Support\n\n🌐 *URL:* https://github.com/lloyd4565/Nuisance-aq\n`
+            `💀 *support group* 💀\n\n🍀 *Description:* Join our support group to learn\n\n🌐 *URL:* https://chat.whatsapp.com/IRbdcY5Kxr0IIxfWhlpfr4\n`
         ).catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
     }
 }
