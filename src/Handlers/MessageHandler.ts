@@ -36,11 +36,11 @@ export default class MessageHandler {
                         )}`
                     )
                     .then((res) => {
-                        if (res.status !== 200) return void M.reply(`🔍 Error: ${res.status}`)
+                        if (res.status !== 200) return void M.reply(`🤪 Error: ${res.status}`)
                         return void M.reply(res.data.cnt)
                     })
                     .catch(() => {
-                        M.reply(`Ummmmmmmmm.`)
+                        M.reply(`ohhhhhhh.`)
                     })
             }
         }
@@ -69,7 +69,7 @@ export default class MessageHandler {
                 sender.username
             )} in ${chalk.cyanBright(groupMetadata?.subject || 'DM')}`
         )
-        if (!command) return void M.reply('No Command Found! Try using one from the help list.')
+        if (!command) return void M.reply('Use ${this.client.config.prefix}help to get full list .')
         const user = await this.client.getUser(M.sender.jid)
         if (user.ban) return void M.reply("You're Banned from using commands.")
         const state = await this.client.DB.disabledcommands.findOne({ command: command.config.command })
