@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'kaoi',
+            command: 'masala',
             description: 'Displays the info',
             category: 'bots',
             usage: `${client.config.prefix}kaoi`,
