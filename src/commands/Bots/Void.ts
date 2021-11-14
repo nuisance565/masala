@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         return void M.reply(
-            `💋 *channel* 💋\n\n🍀 *Description:* \n\n🌐 *URL:*t.me/LLOYDXTECHNOLOGY\n`
+            `💋 *channel* 💋\n\n🍀 *Description:* \n\n🌐 *URL:*t.me/LLOYDXTECHNOLOGY \n`
         ).catch((reason: Error) => M.reply(`an error occurred, Reason: ${reason}`))
     }
 }
