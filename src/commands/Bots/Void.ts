@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'channel',
             description: 'Displays the info',
-            category: 'owner info',
+            category: 'bots',
             usage: `${client.config.prefix}void`,
             baseXp: 100
         })
