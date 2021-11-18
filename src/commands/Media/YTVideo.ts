@@ -8,7 +8,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ytvideo',
+            command: 'video',
             description: 'Downloads given YT Video',
             category: 'media',
             aliases: ['ytv'],
@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        if (!M.urls.length) return void M.reply('🔎 Provide the URL of the YT video you want to download')
+        if (!M.urls.length) return void M.reply('🤡 give me the URL of the YT video you want to download')
         const video = new YT(M.urls[0], 'video')
         if (!video.validateURL()) return void M.reply(`Provide a Valid YT URL`)
         const { videoDetails } = await video.getInfo()
