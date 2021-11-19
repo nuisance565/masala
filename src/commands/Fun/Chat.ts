@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
                     M.reply(`Sorry! What was that???`)
                 })
         } else {
-            M.reply(`Chat Bot Url not set\nRefer to ${this.client.config.prefix}guide to get Chat Bot Url`)
+            M.reply(`Chat Bot Url not set\nRefer to ${this.client.config.prefix}help to get further assistance`)
         }
     }
 }
