@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
             return void M.reply(
-                `${text}     𓊈✨ GOOD DAY AHEAD ✨𓊉*`
+                `${text}     *𓊈✨ GOOD DAY AHEAD ✨𓊉*`
             )
         }
         const key = parsedArgs.joined.toLowerCase()
